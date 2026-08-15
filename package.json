@@ -1,0 +1,41 @@
+{
+  "name": "nyvora-protocol",
+  "version": "0.1.0",
+  "description": "Continuous Asset Streaming & Split-Routing on Stellar",
+  "private": true,
+  "scripts": {
+    "build": "cargo build --target wasm32-unknown-unknown --release && cd frontend && npm run build",
+    "test": "cargo test --all",
+    "test:integration": "cargo test --test integration --release",
+    "test:coverage": "cargo tarpaulin --out Html --all",
+    "lint": "cargo fmt --all && cargo clippy --all -- -D warnings && cd frontend && npm run lint",
+    "format": "cargo fmt --all && cd frontend && npm run format",
+    "dev": "cd frontend && npm run dev",
+    "deploy:testnet": "bash scripts/deploy.sh testnet",
+    "deploy:mainnet": "bash scripts/deploy-mainnet.sh",
+    "setup": "npm install && cd frontend && npm install",
+    "clean": "cargo clean && cd frontend && rm -rf .next node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyvora-protocol/nyvora-protocol.git"
+  },
+  "keywords": [
+    "stellar",
+    "soroban",
+    "streaming",
+    "payment",
+    "cryptocurrency",
+    "web3",
+    "open-source"
+  ],
+  "author": "Nyvora Protocol Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+[workspace]
+members = ["contracts/nyvora-stream", "contracts/split-router"]
+resolver = "2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+
+[profile.release-with-logs]
+inherits = "release"
+
+[profile.test]
+opt-level = 1
+
+[[test]]
+name = "integration"
+path = "contracts/nyvora-stream/tests/integration.rs"
+
+[[test]]
+name = "split_routing"
+path = "contracts/nyvora-stream/tests/split_routing.rs"
