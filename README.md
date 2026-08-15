@@ -208,11 +208,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 MIT License - see [LICENSE](LICENSE)
 
-## Support
+## Support & Community
 
+- 🐛 [Report Issues](https://github.com/CodedBay/nyvora-protocol/issues)
+- 👨‍💻 [Maintainer (@CodedBay)](https://github.com/CodedBay)
 - 📚 [Stellar Docs](https://developers.stellar.org)
-- 💬 [Stellar Discord](https://discord.gg/stellar)
-- 🐛 [GitHub Issues](https://github.com/CodedBay/nyvora-protocol/issues)
+- 💬 [Stellar Community](https://discord.gg/stellar)
+- 💬 [Stellar Community](https://discord.gg/stellar)
+
 
 ## Acknowledgments
 
