@@ -223,4 +223,4 @@ Built on [Stellar Soroban](https://soroban.stellar.org). Inspired by streaming p
 
 ---
 
-**Made for open-source funding on Stellar**
+**Made for open-source funding on Stellar ❤️**
