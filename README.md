@@ -214,7 +214,7 @@ MIT License - see [LICENSE](LICENSE)
 - 👨‍💻 [Maintainer (@CodedBay)](https://github.com/CodedBay)
 - 📚 [Stellar Docs](https://developers.stellar.org)
 - 💬 [Stellar Community](https://discord.gg/stellar)
-- 💬 [Stellar Community](https://discord.gg/stellar)
+  
 
 
 ## Acknowledgments
